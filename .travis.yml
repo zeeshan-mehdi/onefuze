@@ -18,6 +18,7 @@ before_deploy:
   - pushd build/ios/iphoneos 
   - mkdir Payload 
   - cd Payload 
+  - draft true		
   - ln -s ../Runner.app 
   - cd .. 
   - zip -r app.ipa Payload 
