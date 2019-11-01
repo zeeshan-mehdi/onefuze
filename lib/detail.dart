@@ -2,7 +2,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:onefuze/main.dart';
+import 'package:onefuze/main_.dart';
 
 import 'constants/custom_colors.dart';
 

@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 import 'package:flutter/rendering.dart';
 import 'package:http/http.dart';
-import 'package:onefuze/main.dart';
+import 'package:onefuze/main_.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 
 import 'constants/custom_colors.dart';
