@@ -1,11 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:onefuze/add_new.dart';
 import 'package:onefuze/constants/custom_colors.dart';
 import 'package:onefuze/login.dart';
 import 'package:onefuze/main_.dart';
+import 'package:onefuze/tabs/tabs_home.dart';
 
-void main() => runApp(LoginScreen());
+void main() => runApp(SplashScreen());
 
 class SplashScreen extends StatelessWidget {
   @override
@@ -54,14 +56,10 @@ class _MySplashPageState extends State<MySplashPage> {
       body: Container(
       child: Center(
         child:Padding( child: Image.asset('images/onefuze_logo.jpeg'),padding: EdgeInsets.only(left: 10,right: 10),),
-
       ),),
       backgroundColor: Color.fromRGBO( 39,34,100,1),
     );
   }
-
-
-
 
 
 }

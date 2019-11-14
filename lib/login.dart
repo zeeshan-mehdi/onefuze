@@ -7,6 +7,7 @@ import 'package:flutter/rendering.dart';
 import 'package:http/http.dart';
 import 'package:onefuze/main_.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:onefuze/tabs/tabs_home.dart';
 
 import 'constants/custom_colors.dart';
 
@@ -23,7 +24,7 @@ class LoginScreen extends StatelessWidget {
       ),
       home: LoginPage(),
       routes: <String, WidgetBuilder>{
-        '/home': (BuildContext context) => MyApp(),
+        '/home': (BuildContext context) => TabBarDemo(),
       },
     );
   }

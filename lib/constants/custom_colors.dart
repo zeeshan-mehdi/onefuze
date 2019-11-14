@@ -17,3 +17,5 @@ Map<int, Color> themColors =
 };
 
 var primaryColor = Color.fromRGBO( 39,34,100,1).value;
+
+var accentColor = Color.fromRGBO( 39,34,100,1);
